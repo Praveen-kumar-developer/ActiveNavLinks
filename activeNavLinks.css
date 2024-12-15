@@ -1,0 +1,58 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    align-items: center;
+    padding: 20px 120px; 
+    z-index: 100;
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a{
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+nav a:hover{
+    color: rgb(148, 148, 244);
+}
+
+nav a.active{
+    color: rgb(148, 148, 244);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 222, 222);
+    font-size: 100px;
+    font-weight: 700;
+}
+
+section:nth-child(odd){
+    background-color: #ddf0f5;
+}
